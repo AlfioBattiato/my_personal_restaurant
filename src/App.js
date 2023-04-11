@@ -1,13 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
 import Header from './component/Header';
-// import Navbar from './component/Navbar';
+import Main from './component/Main';
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar></Navbar> */}
       <Header></Header>
+      <Main></Main>
     </div>
   );
 }

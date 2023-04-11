@@ -1,0 +1,28 @@
+h1 {
+    
+    color: #e20613;
+    text-align: center;
+    margin-top: 2rem;
+    border-bottom: 1px solid #e20613;
+    letter-spacing: 4px;
+}
+.QuattroMotivi{
+    padding-top: 5rem;
+}
+.QuattroMotivi,.firstSection,.secondSection{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+.why{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.why img{
+    width: 7rem;
+}

@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&family=Roboto:wght@700;900&display=swap');
 
 .header {
@@ -8,59 +7,99 @@
     height: 39rem;
     background-image: url('/public/assets/japan-g3b2683749_1920.jpg');
     background-size: cover;
-    position: relative;
-
+    color: rgba(255, 255, 255, 0.753);
 
 
 }
-
+h2{
+    text-align: center;
+    margin: 0px;
+}
 .header>h1 {
-    font-family: 'Poppins', sans-serif;
+   
     color: #e20613;
     font-size: 4rem;
     text-align: center;
     margin: 0px;
 }
 
-.header>.h {
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12rem;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.prePage {
     width: 45rem;
     padding: 2rem;
     color: rgba(255, 255, 255, 0.753);
-    font-family: 'Poppins', sans-serif;
     float: right;
 
 }
 
-
-img {
-    width: 28%;
-    position: absolute;
-    left: 8rem;
-    top: -2rem;
+.section1 img {
+    width: 23rem;
     transform: rotate(-20deg);
+    padding-left: 10rem;
+}
+
+/*  tablet */
+@media screen and (max-width: 1504px) {
+    img {
+        padding: 0px;
+    }
+
+    .section1 {
+        flex-wrap: nowrap;
+        gap: 0rem;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+
 }
 
 /*  mobile */
-@media screen and (max-width: 956px){
+@media screen and (max-width: 728px) {
 
     .header>h1 {
         font-size: 2.3rem;
-    }
-    .header>.h {
-        width: 88%;
-        padding: 1rem;
-        margin: 0px;
+
     }
 
-    img {
-      display: none
+    .prePage {
+        width: 90%;
+        padding: 1rem;
+        margin: 0px;
+        float: none;
     }
-    .header {
-        height: 40rem;
-   
+
+    .section1 img{
+        padding: 0px;
+        width: 10rem;
     }
-    h2{
+
+    .section1 {
+        flex-wrap: wrap;
+        gap: 0rem;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .imgHeader {
+        text-align: center;
+    }
+
+    h2 {
         font-size: 1.6rem;
     }
-    
+
 }
