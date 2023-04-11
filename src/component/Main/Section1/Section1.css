@@ -1,17 +1,25 @@
-h1 {
-    
-    color: #e20613;
+.h1FirstSection {
     text-align: center;
-    margin-top: 2rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    margin: 0rem;
+    padding: 5rem;
     border-bottom: 1px solid #e20613;
     letter-spacing: 4px;
+    font-weight: 100;
+    font-size: 2rem;
 }
 .QuattroMotivi{
-    padding-top: 5rem;
+    padding: 5rem 0rem;
+    background-color: rgba(0, 0, 0, 0.966);
+    color: white;
+
+
 }
 .QuattroMotivi,.firstSection,.secondSection{
     display: flex;
-    gap: 2rem;
+    gap: 6rem;
     flex-wrap: wrap;
     justify-content: center;  
 }
@@ -25,4 +33,16 @@ h1 {
 }
 .why img{
     width: 7rem;
+}
+/*mobile tablet */
+@media screen and (max-width: 1204px) {
+    .QuattroMotivi,.firstSection,.secondSection{
+        gap: 1rem;
+    }
+    .QuattroMotivi{
+        padding-top: 3rem;
+    }
+    h1 {
+        margin-top: 7rem;
+    }
 }

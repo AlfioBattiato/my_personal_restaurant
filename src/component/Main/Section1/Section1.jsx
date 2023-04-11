@@ -2,11 +2,11 @@ import './Section1.css'
 function Section1() {
 
     return (<>
-        <h1>QUATTRO MOTIVI PER SCEGLIERE SUSHI&SUSHI</h1>
+        <h1 className='h1FirstSection'>QUATTRO MOTIVI PER SCEGLIERE SUSHI&SUSHI</h1>
         <div className="QuattroMotivi">
             <div className="firstSection">
                 <div className="why">
-                <img src='./assets/sushi.png'alt="" />
+                <img src='./assets/qualita.png'alt="" />
                     <div>
                       
                         <h3>Solo sushi preparato al momento</h3>
@@ -14,7 +14,7 @@ function Section1() {
                     </div>
                 </div>
                 <div className="why">
-                <img src='./assets/service.png'alt="" />
+                <img src='./assets/servizio.png'alt="" />
 
                     <div>
                         <h3>Solo personale altamente qualificato</h3>
@@ -26,7 +26,7 @@ function Section1() {
 
             <div className="secondSection">
                 <div className="why">
-                                    <img src='./assets/gravy.png'alt="" />
+                                    <img src='./assets/salse.png'alt="" />
 
                     <div>
                     <h3>
@@ -36,7 +36,7 @@ function Section1() {
                  
                 </div>
                 <div className="why">
-                <img src='./assets/toast.png'alt="" />
+                <img src='./assets/birra.png'alt="" />
 
                     <div>
                     <h3>Una birra unica creata per il nostro menu</h3>
