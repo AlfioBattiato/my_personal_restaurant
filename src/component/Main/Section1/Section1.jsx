@@ -2,7 +2,7 @@ import './Section1.css'
 function Section1() {
 
     return (<>
-        <h1 className='h1FirstSection'>QUATTRO MOTIVI PER SCEGLIERE SUSHI&SUSHI</h1>
+        <h1 className='h1FirstSection'>Quattro motivi per scegliere SUSHI&SUSHI</h1>
         <div className="QuattroMotivi">
             <div className="firstSection">
                 <div className="why">

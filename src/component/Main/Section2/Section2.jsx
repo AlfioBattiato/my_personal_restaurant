@@ -6,6 +6,8 @@ function Section2() {
         <section>
 
             <div className="section2">
+            <div className="imgConcept"> </div>
+
                 <div className="concept">
                     <h4>Sushi&Sushi :  il nostro concept</h4>
 
@@ -14,8 +16,6 @@ function Section2() {
                         oppure ovunque tu voglia. Con una personalità che non potrai più confondere.</p>
                         <Button></Button>
                         
-                </div>
-                <div className="imgConcept">
                 </div>
 
 

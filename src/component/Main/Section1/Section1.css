@@ -10,20 +10,25 @@
     font-weight: 100;
     font-size: 2rem;
 }
-.QuattroMotivi{
+
+.QuattroMotivi {
     padding: 5rem 0rem;
     background-color: rgba(0, 0, 0, 0.966);
     color: white;
 
 
 }
-.QuattroMotivi,.firstSection,.secondSection{
+
+.QuattroMotivi,
+.firstSection,
+.secondSection {
     display: flex;
     gap: 6rem;
     flex-wrap: wrap;
-    justify-content: center;  
+    justify-content: center;
 }
-.why{
+
+.why {
     width: 15rem;
     display: flex;
     flex-direction: column;
@@ -31,18 +36,30 @@
     align-items: center;
 
 }
-.why img{
+
+.why img {
     width: 7rem;
 }
+
 /*mobile tablet */
 @media screen and (max-width: 1204px) {
-    .QuattroMotivi,.firstSection,.secondSection{
-        gap: 1rem;
+
+    .QuattroMotivi,
+    .firstSection,
+    .secondSection {
+        gap: 2rem;
     }
-    .QuattroMotivi{
+
+    .QuattroMotivi {
         padding-top: 3rem;
     }
-    h1 {
-        margin-top: 7rem;
+    .h1FirstSection {
+        font-weight: 100;
+        padding: 2rem;
     }
+
+    .QuattroMotivi p {
+        padding: 0rem;
+    }
+
 }

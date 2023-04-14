@@ -1,0 +1,50 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer div {
+    width: 22rem;
+}
+
+footer a {
+    color: #ff6900;
+    text-decoration: none;
+
+}
+
+.contatti img {
+    width: 2rem;
+}
+
+.contatti a {
+    display: flex;
+}
+
+.social img {
+    width: 3rem;
+}
+
+/* mobile */
+@media screen and (max-width:711px) {
+    footer {
+        gap: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 712px) {
+    footer div {
+        width: 17rem;
+    }
+
+    footer {
+        justify-content: space-between;
+        padding: 3rem;
+    }
+}

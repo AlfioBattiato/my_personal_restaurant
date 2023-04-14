@@ -1,0 +1,44 @@
+.delivery {
+    height: 45rem;
+    background-color: rgba(0, 0, 0, 0.61);
+    background-image: url(/public/assets/delivery.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    margin-top: 5rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.delivery h1 {
+    font-weight: 100;
+    font-size: 3rem;
+    text-align: start;
+    color: white;
+    border-bottom: 1px solid red;
+}
+
+/*mobile */
+
+@media screen and (max-width: 711px) {
+    .delivery {
+        height: 32rem;
+        padding: 1rem;
+    }
+
+    .delivery h1,
+    p {
+        margin: 0px;
+        padding: 1rem;
+        
+    }
+    .delivery h1{
+        font-size: 2rem;
+
+    }
+
+}
