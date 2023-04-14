@@ -1,13 +1,11 @@
 import './Header.css';
 import Button from '../Button';
-import Navbar from '../Navbar';
 
 
 function Header() {
 
     return (
         <>
-            <Navbar></Navbar>
             <div className='header'>
                 <h2>All You Can Eat</h2>
                 <h1>Sushi&Sushi</h1>

@@ -1,0 +1,86 @@
+.sectionPrenotazione {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.918);
+    width: 100%;
+    height: 100%;
+
+}
+.none{
+    display: none;
+}
+
+.ordina h1 {
+    text-align: center;
+}
+
+.ordina {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.button>img {
+    width: 3rem;
+}
+
+.button {
+    float: right;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.ristorante,
+.asporto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.733);
+    padding: 3rem;
+    width: 20rem;
+    height: 15rem;
+}
+
+
+
+
+@media screen and (max-width: 704px) {
+
+    .ristorante,
+    .asporto {
+        padding: 1rem;
+        height: 15rem;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ristorante h1,
+    .asporto h1 {
+        font-size: 1.5rem;
+    }
+
+    .sectionPrenotazione {
+        height: 55rem;
+    }
+
+    .button>img {
+        width: 2rem;
+    }
+
+    .button {
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+
+}

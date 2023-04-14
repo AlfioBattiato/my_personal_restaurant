@@ -6,6 +6,7 @@ footer {
     gap: 4rem;
     justify-content: center;
     flex-wrap: wrap;
+    width: calc(100% - 64px);
 }
 
 footer div {
@@ -34,6 +35,8 @@ footer a {
 @media screen and (max-width:711px) {
     footer {
         gap: 1rem;
+        padding: 0rem;
+        width: 100%;
     }
 
 }
