@@ -33,12 +33,16 @@
     .delivery h1,
     p {
         margin: 0px;
-        padding: 1rem;
+      
         
     }
     .delivery h1{
         font-size: 2rem;
 
+    }
+    .delivery {
+        justify-content: space-around;
+        align-items: start;
     }
 
 }

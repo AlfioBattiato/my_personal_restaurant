@@ -1,11 +1,9 @@
 import './Button.css'
-function Button(){
+function Button({value="",miafunzione}){
+
 
     return(<>
-    <input className="btn" type="button" value="SCOPRI ORA" />
-      
-  
-    
+    <input className="btn" type="button" value={value} onClick={miafunzione}  />
     
     </>)
 }

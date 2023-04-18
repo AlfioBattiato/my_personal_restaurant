@@ -1,20 +1,40 @@
-// import logo from './logo.svg';
 import './App.css';
 import Header from './component/Header';
 import Main from './component/Main';
 import Footer from './component/Footer';
 import Navbar from './component/Navbar';
 import Ordina from './component/Ordina';
-
+import Prenotazione from './component/Prenotazione';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
+
+
+
   return (
-    <div className="App">
-      <Navbar></Navbar>
+    <BrowserRouter>
+      <Routes>
+       
+        <Route path='/' element={<Navbar></Navbar>}>
+
+
+          <Route index element={
+            <div className="App">
+              <Header></Header>
+              <Main></Main>
+            </div>}  ></Route>
+
+          <Route path='prenotazione' element={<Prenotazione/>} />
+
+        </Route>
+
+      </Routes>
+
       <Ordina></Ordina>
-      <Header></Header>
-      <Main></Main>
       <Footer></Footer>
-    </div>
+
+    </BrowserRouter >
+
+
   );
 }
 

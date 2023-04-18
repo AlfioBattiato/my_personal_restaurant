@@ -2,7 +2,14 @@ import './Header.css';
 import Button from '../Button';
 
 
-function Header() {
+function Header({ funzione }) {
+
+    let cambiaDisplay = () => {
+        let sectionPrenotazione = document.querySelector(".sectionPrenotazione")
+        sectionPrenotazione.style.display="block"
+
+    }
+
 
     return (
         <>
@@ -19,7 +26,7 @@ function Header() {
                         <p> Quando il sushi è un piacere a cui non puoi rinunciare,
                             Sushi&Sushi è la scelta giusta. Ambienti nuovi e moderni, un menu Infinity con
                             oltre 120 proposte di sushi tradizionale e creativo e tante promozioni</p>
-                        <Button></Button>
+                        <Button value={"SCOPRI ORA"}  miafunzione={cambiaDisplay}></Button>
                     </div>
                 </div>
 

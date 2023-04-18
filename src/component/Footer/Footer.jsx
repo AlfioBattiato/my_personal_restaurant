@@ -1,6 +1,12 @@
+import { Outlet } from 'react-router-dom'
 import './Footer.css'
 function Footer() {
 
+    let cambiaDisplay = () => {
+        let sectionPrenotazione = document.querySelector(".sectionPrenotazione")
+        sectionPrenotazione.style.display = "block"
+
+    }
     return (
         <footer>
 
@@ -8,9 +14,9 @@ function Footer() {
                 <h3>Sushi&Sushi a domicilio</h3>
                 <p>Ordina il pranzo o la cena a base di sushi da uno dei ristoranti del gruppo.
                     Scegli se fartelo consegnare a casa o se passare in ristorante per il ritiro.</p>
-                <a href='/'>Ordina ora</a>
+                <a onClick={cambiaDisplay}>Ordina ora</a>
             </div>
-            <div className="contatti">
+            <div className="contatti"  id='contatti'>
                 <h3>Contatti</h3>
 
                 <p>Telefono : +39 3773713765  <a href="tel:+393773713765"> Chiamaci</a></p>
@@ -24,12 +30,14 @@ function Footer() {
                 
                 <h3>I nostri social</h3>
                 <hr />
-                <a href=""> <img src="/assets/facebook.png" alt="" /></a>
-                <a href=""> <img src="/assets/instagram.png" alt="" /></a>
-                <a href=""> <img src="/assets/twitter.png" alt="" /></a>
+                <a > <img src="/assets/facebook.png" alt="" /></a>
+                <a > <img src="/assets/instagram.png" alt="" /></a>
+                <a > <img src="/assets/twitter.png" alt="" /></a>
             </div>
+            <Outlet></Outlet>
 
         </footer>
+
 
 
 

@@ -16,11 +16,12 @@ footer div {
 footer a {
     color: #ff6900;
     text-decoration: none;
+    cursor: pointer;
 
 }
 
 .contatti img {
-    width: 2rem;
+    width: 3rem;
 }
 
 .contatti a {
@@ -48,6 +49,7 @@ footer a {
 
     footer {
         justify-content: space-between;
-        padding: 3rem;
+        padding: 2rem;
+        width: calc(100% - 64px);
     }
 }

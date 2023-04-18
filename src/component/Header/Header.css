@@ -62,6 +62,9 @@ h2 {
         width: 20rem;
         padding-left: 0rem;
     }
+    .header{
+        padding-top: 5rem;
+    }
 
 
 }
@@ -71,6 +74,7 @@ h2 {
     .header {
         height: 47rem;
         flex-wrap: wrap;
+        padding-top: 5rem;
     }
 
     .header>h1 {
