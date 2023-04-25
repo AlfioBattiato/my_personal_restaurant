@@ -21,7 +21,7 @@ h2 {
 .header>h1 {
 
     color: #e20613;
-    font-size: 4rem;
+    font-size: 5rem;
     text-align: center;
     margin: 0px;
 }
@@ -75,6 +75,7 @@ h2 {
         height: 47rem;
         flex-wrap: wrap;
         padding-top: 5rem;
+        
     }
 
     .header>h1 {

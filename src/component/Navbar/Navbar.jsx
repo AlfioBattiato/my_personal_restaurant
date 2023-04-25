@@ -8,17 +8,28 @@ function Navbar() {
     const Span3 = useRef(0);
 
 
-    const [display, setDisplay] = useState("nascosto")
+    // const [display, setDisplay] = useState("nascosto")
 
-    const handleClick = (temp) => {
-        if (temp === "nascosto") {
-            setDisplay("visibile")
+    const handleClick = () => {
+        let ulHamburger = document.getElementById("ulHamburger");
+
+        // console.log(ulHamburger)
+
+        if (ulHamburger.className === "nascosto") {
+            ulHamburger.setAttribute("class", "visibile");
             Span2.current.style.display = "none"
             Span1.current.style.transform = 'rotate(45deg) translate(1px, 11px)';
             Span3.current.style.transform = 'rotate(-45deg) translate(-2px, -2px)';
 
+
+        
+
+        //     // setDisplay("visibile")
+
         } else {
-            setDisplay("nascosto")
+            ulHamburger.setAttribute('class', 'nascosto')
+
+            // setDisplay("nascosto")
             Span2.current.style.display = "block"
             Span1.current.style.transform = 'rotate(0deg) translate(0px, 0px)';
             Span3.current.style.transform = 'rotate(0deg) translate(0px, 0px)';
@@ -33,7 +44,7 @@ function Navbar() {
     function topFunction() {
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        window.pageYOffset=0;
+        window.pageYOffset = 0;
     }
 
 
@@ -41,7 +52,7 @@ function Navbar() {
     return (
         <>
             <div className='navbar'>
-                <div className="hamburger" onClick={() => handleClick(display)} >
+                <div className="hamburger" onClick={() => handleClick()} >
                     <span className="span1" ref={Span1}></span>
                     <span className="span2" ref={Span2}></span>
                     <span className="span3" ref={Span3}></span>
@@ -49,20 +60,20 @@ function Navbar() {
 
 
                 <div >
-                    <ul className={display}>
+                    <ul className='nascosto' id="ulHamburger">
                         {/* mi serve perportare la pagina su e chiudere il menu */}
-                        <li onClick ={()=>{topFunction();handleClick()}} ><Link to='/' ><a> HOME</a></Link></li>
+                        <li onClick={() => { topFunction(); handleClick() }} ><Link to='/' > HOME</Link></li>
 
-                    <li><a>IL NOSTRO MENU</a></li>
-                    <li onClick={cambiaDisplay}><a> ORDINA ORA</a></li>
-                    <li><a href="/"> RISTORANTI</a></li>
-                    <li><a href="#contatti">CONTATTI</a></li>
-                </ul>
-            </div>
+                        <li><a>IL NOSTRO MENU</a></li>
+                        <li onClick={cambiaDisplay}><a> ORDINA ORA</a></li>
+                        <li><a href="/"> RISTORANTI</a></li>
+                        <li><a href="#contatti">CONTATTI</a></li>
+                    </ul>
+                </div>
 
 
 
-        </div >
+            </div >
             <Outlet></Outlet>
         </>
 

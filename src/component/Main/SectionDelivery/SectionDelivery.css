@@ -43,6 +43,10 @@
     .delivery {
         justify-content: space-around;
         align-items: start;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: cover;
     }
 
 }
