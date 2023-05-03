@@ -5,6 +5,7 @@ import Footer from './component/Footer';
 import Navbar from './component/Navbar';
 import Ordina from './component/Ordina';
 import Prenotazione from './component/Prenotazione';
+import Asporto from './component/Asporto';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
             </div>}  ></Route>
 
           <Route path='prenotazione' element={<Prenotazione/>} />
+          <Route path='asporto' element={<Asporto/>} />
 
         </Route>
 

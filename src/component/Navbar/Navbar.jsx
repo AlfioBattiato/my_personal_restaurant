@@ -22,9 +22,9 @@ function Navbar() {
             Span3.current.style.transform = 'rotate(-45deg) translate(-2px, -2px)';
 
 
-        
 
-        //     // setDisplay("visibile")
+
+            //     // setDisplay("visibile")
 
         } else {
             ulHamburger.setAttribute('class', 'nascosto')
@@ -46,8 +46,11 @@ function Navbar() {
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         window.pageYOffset = 0;
     }
-
-
+    function topFunction2() {
+        document.body.scrollTop = 20; // For Safari
+        document.documentElement.scrollTop = 500; // For Chrome, Firefox, IE and Opera
+        window.pageYOffset = 900;
+    }
 
     return (
         <>
@@ -64,7 +67,7 @@ function Navbar() {
                         {/* mi serve perportare la pagina su e chiudere il menu */}
                         <li onClick={() => { topFunction(); handleClick() }} ><Link to='/' > HOME</Link></li>
 
-                        <li><a>IL NOSTRO MENU</a></li>
+                        <li onClick={() => { topFunction2(); handleClick() }}><Link to="asporto" >IL NOSTRO MENU</Link></li>
                         <li onClick={cambiaDisplay}><a> ORDINA ORA</a></li>
                         <li><a href="/"> RISTORANTI</a></li>
                         <li><a href="#contatti">CONTATTI</a></li>

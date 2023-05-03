@@ -36,7 +36,7 @@
 }
 
 .ristorante,
-.asporto {
+.SectionAsporto {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,7 +47,7 @@
 }
 
 .ristorante:hover,
-.asporto:hover {
+.SectionAsporto:hover {
     background-color: rgba(0, 0, 0, 0.863);
     color: white;
     border: 3px solid #ff6900;
@@ -56,7 +56,7 @@
 }
 
 .ristorante input,
-.asporto input {
+.SectionAsporto input {
     width: 100%;
 }
 
@@ -66,7 +66,7 @@
 @media screen and (max-width: 704px) {
 
     .ristorante,
-    .asporto {
+    .SectionAsporto {
         padding: 1rem;
         height: 15rem;
         width: 70%;
@@ -77,7 +77,7 @@
     }
 
     .ristorante h1,
-    .asporto h1 {
+    .SectionAsporto h1 {
         font-size: 1.5rem;
     }
 

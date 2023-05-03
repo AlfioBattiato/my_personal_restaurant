@@ -4,12 +4,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/public/assets/sushi-1920.jpg);
+    background-image: url(/public/assets/sf.jpg);
     background-size: cover;
     flex-wrap: wrap;
     gap: 17rem;
     background-color: rgba(0, 0, 0, 0.705);
     background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 
 }
 
@@ -83,6 +86,7 @@
     color: rgba(255, 255, 255, 0.753);
 
 }
+
 
 /*  tablet */
 @media screen and (max-width: 1200px) and (min-width: 712px) {

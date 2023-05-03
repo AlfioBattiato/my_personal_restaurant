@@ -1,6 +1,6 @@
 /*desktop */
 .navbar {
-    background-color: rgba(0, 0, 0, 0.932);
+    background-color: rgb(0, 0, 0);
     position: sticky;
     top: 0;
     z-index: 2;

@@ -1,0 +1,29 @@
+.card {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #e2061500;
+    box-shadow: 2px 4px 13px 7px rgba(0, 0, 0, 0.062);
+    border-radius: 1rem;
+    padding: 5px;
+}
+
+.card img {
+    width: 100%;
+    height: 10rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.card:hover {
+    box-shadow: 2px 4px 13px 7px rgba(0, 0, 0, 0.329);
+
+
+}
+.card p{
+    margin: 0.3px;
+}
+
+

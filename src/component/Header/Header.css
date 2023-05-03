@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&family=Roboto:wght@700;900&display=swap');
 
 .header {
-    background-color: rgba(0, 0, 0, 0.719);
+    background-color: rgba(0, 0, 0, 0.521);
     background-blend-mode: multiply;
     width: 100%;
     height: 39rem;
-    background-image: url('/public/assets/japan-g3b2683749_1920.jpg');
+    background-image: url('/public/assets/sfondo.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
     background-size: cover;
     color: rgba(255, 255, 255, 0.753);
+    padding-top: 1rem;
 
 
 
@@ -20,7 +24,7 @@ h2 {
 
 .header>h1 {
 
-    color: #e20613;
+    color: #ffffff;
     font-size: 5rem;
     text-align: center;
     margin: 0px;
@@ -39,7 +43,7 @@ h2 {
 .prePage {
     width: 45rem;
     padding: 2rem;
-    color: rgba(255, 255, 255, 0.753);
+    color: rgb(255, 255, 255);
     float: right;
 
 }
@@ -72,14 +76,14 @@ h2 {
 /*  mobile */
 @media screen and (max-width: 711px) {
     .header {
-        height: 47rem;
+        height: 40rem;
         flex-wrap: wrap;
         padding-top: 5rem;
         
     }
 
     .header>h1 {
-        font-size: 2.7rem;
+        font-size: 3rem;
     }
 
     .prePage {
@@ -91,7 +95,7 @@ h2 {
 
     .section1 img {
         padding: 0px;
-        width: 14rem;
+        width: 9rem;
         transform: rotate(333deg);
     }
 

@@ -1,0 +1,95 @@
+.asporto {
+    padding: 2rem 0rem;
+    background-image: url(/public/assets/Take-away-sushi-sushimaison.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.479);
+
+}
+
+.asporto>h1 {
+
+    color: #fffffff1;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0px;
+}
+
+.asporto>h2 {
+
+    color: #fffffff1;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0px;
+}
+
+.asporto h3 {
+    color: #fffffff1;
+    ;
+    width: 60%;
+
+}
+
+.asporto img {
+    width: 10rem;
+}
+
+.menu h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.menu {
+    padding: 5rem;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid firebrick;
+    background-image: url(/public/assets/sushi2.png);
+    padding-bottom: 7rem;
+}
+.menu>div{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-left: 4px solid rgb(245, 197, 109);  */
+    border-top: 4px solid rgb(245, 197, 109); 
+
+    padding: 1rem;
+
+}
+.menu>div>img{
+    width: 5rem;
+}
+
+.raccoglitoreCard {
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-bottom: 5rem;
+}
+/*  mobile */
+@media screen and (max-width: 711px) {
+    .asporto>h1 {      
+        font-size: 2.6rem;
+    }
+    .asporto {
+        padding: 5rem 0rem;
+    }
+    
+
+}

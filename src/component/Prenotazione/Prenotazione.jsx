@@ -19,11 +19,11 @@ function Prenotazione() {
                         <h3>Effettua una prenotazione</h3>
                         <input type="number" min={1} max={10} id='numeroPersone' placeholder='Numero Persone' required />
 
-                        <input type="date" id='data' placeholder='Data' min={new Date().toISOString().split('T')[0]} onfocus="(this.type='date')" required />
+                        <input type="date" id='data' placeholder='Data' min={new Date().toISOString().split('T')[0]}  required />
                         <select  id="" required>
 
                             <option value="orario" >Orario</option>
-                            <option value="11.30">11.30</option>
+                            <option  value="11.30">11.30</option>
                             <option value="12.00">12.00</option>
                             <option value="12.30">12.30</option>
                             <option value="13.00">13.00</option>

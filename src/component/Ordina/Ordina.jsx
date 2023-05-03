@@ -44,14 +44,15 @@ function Ordina() {
             <div className="ordina">
                 <div className="ristorante">
                     <h1>Prenota tavolo</h1>
-                    <Link to='prenotazione' id='link'><Button value="PRENOTA" miafunzione={() => { topFunction(); none(); hamburger() }}></Button></Link>
+                    <Link to='prenotazione' ><Button value="PRENOTA" miafunzione={() => { topFunction(); none(); hamburger() }}></Button></Link>
 
                 </div>
-                <div className="asporto">
+                <div className="SectionAsporto">
                     <h1>Ordina da asporto</h1>
-                    <Button value="ORDINA" ></Button>
+                    <Link to='asporto'><Button value="ORDINA" miafunzione={() => { topFunction(); none(); hamburger() }}></Button></Link>
                 </div>
             </div>
+
 
         </div>
 
