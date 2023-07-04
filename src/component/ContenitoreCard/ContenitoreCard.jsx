@@ -23,17 +23,6 @@ function ContenitoreCard({ lista }) {
                 </div>
             ))}
 
-            {/* {lista.forEach(element => {
-               return <div>
-                    <img src={element.url} alt="" />;
-                    <h3>{element.titolo}</h3>;
-                    <p>{element.descrizione}</p>;
-                    <p>{element.prezzo + ".00€"}</p>
-                </div>
-
-
-            })} */}
-
         </>
     )
 }

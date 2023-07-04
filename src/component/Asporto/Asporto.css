@@ -49,7 +49,6 @@
 .menu {
     padding: 5rem;
     display: flex;
-    gap: 10rem;
     justify-content: center;
     flex-wrap: wrap;
     border-bottom: 1px solid firebrick;
@@ -90,6 +89,9 @@
     .asporto {
         padding: 5rem 0rem;
     }
-    
+    .error{
+        font-size: 1rem;
+    }
+ 
 
 }

@@ -1,7 +1,7 @@
 /****************************************************************/
 /*         navmenu        /*/
 
-.navMenu{
+.navMenu {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -9,23 +9,50 @@
     align-items: center;
     background-color: rgb(255, 255, 255);
     gap: 2rem;
-    padding-top: 5rem;
-    border-bottom: 1px solid rgb(245, 197, 109); ;
+    padding: 1rem 0rem;
+    border-bottom: 1px solid rgb(245, 197, 109);
+    ;
 }
-.navMenu span{
+
+.navMenu span {
     font-size: 1.5rem;
     cursor: pointer;
     padding: 1rem;
     color: rgb(245, 197, 109);
 
 }
-.navMenu span:hover{
-   background-color: bisque;
-   color: black;
+
+.navMenu span:hover {
+    background-color: bisque;
+    color: black;
 }
+
+.navMenu>form>input {
+    padding: 0.5rem;
+}
+
+.navMenu>form>input[type="button"] {
+    margin-left: 10px;
+    border: 2px solid #ff6900;
+    background-color: white;
+    color: #ff6900;
+    cursor:pointer;
+ 
+}
+.navMenu>form>input[type="button"]:hover {
+    border: 2px solid #ff6900;
+    background-color:#ff6900;
+    color: white;
+}
+.navMenu>form>input[type="search"] {
+    border: 2px solid #ff6900;
+}
+
+
+
 /*  mobile */
 @media screen and (max-width: 711px) {
-    .navMenu{
+    .navMenu {
         flex-direction: column;
         gap: 0rem;
         padding-top: 1rem;

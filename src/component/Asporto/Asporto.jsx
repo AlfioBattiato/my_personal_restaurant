@@ -6,6 +6,28 @@ import { useState } from 'react';
 
 function Asporto() {
 
+    function ricerca() {
+        let value = document.getElementById("gsearch").value;
+         value=value.toLowerCase()
+        // console.log(value.toLowerCase() + "  here")
+        let error = document.querySelector('.error')
+
+        const ricerca = lista.card.filter(element => element.titolo.includes(value));
+        if (ricerca.length == 0) {
+            error.innerHTML = 'SIAMO SPIACENTI MA LA TUA RICERCA NON HA DATO NESSUN RISULTATO, PROVA AD INSERIRE UNA PAROLA DIVERSA '
+
+        } else {
+            error.innerHTML = ''
+        }
+
+        // console.log(ricerca)
+
+        return ricerca
+
+
+
+    }
+
     const tutto = lista.card;
     const urakami = lista.card.filter(element => element.categoria == "urakami");
     const piatto = lista.card.filter(element => element.categoria == "piatto");
@@ -46,7 +68,9 @@ function Asporto() {
             </div>
 
 
-            <NavMenu tutto={() => {setPietanze(tutto)}} piatti={() => { setPietanze(piatto)}} urakami={() => {setPietanze(urakami)}} />
+            <NavMenu tutto={() => { setPietanze(tutto) }} piatti={() => { setPietanze(piatto) }} urakami={() => { setPietanze(urakami) }} cerca={() => { setPietanze(ricerca) }} />
+            <h2 className='error'></h2>
+
             <div className='raccoglitoreCard'>
 
                 <ContenitoreCard lista={pietanze}></ContenitoreCard>

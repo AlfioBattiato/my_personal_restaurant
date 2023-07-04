@@ -1,5 +1,5 @@
 .card {
-    width: 15rem;
+    width: 16rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -24,6 +24,9 @@
 }
 .card p{
     margin: 0.3px;
+}
+.card h3{
+    text-align: center;
 }
 
 

@@ -49,7 +49,7 @@ function Navbar() {
     function topFunction2() {
         document.body.scrollTop = 20; // For Safari
         document.documentElement.scrollTop = 500; // For Chrome, Firefox, IE and Opera
-        window.pageYOffset = 900;
+        window.pageYOffset = 990;
     }
 
     return (

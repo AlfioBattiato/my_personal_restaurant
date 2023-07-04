@@ -11,23 +11,21 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 7rem;
-    height: 40rem;
-
+    gap: 5rem;
 
 }
 
 .imgConcept {
     background-image: url(/public/assets/caviar.png);
-    width: 20%;
-    height: 28rem;
+    width: 30%;
+    height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .concept {
-    width: 42rem;
+    width: 40rem;
     padding: 1rem;
 
 }
@@ -66,7 +64,6 @@
 
     .section2 {
         gap: 0rem;
-        height: 75rem;
 
     }
 

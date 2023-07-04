@@ -2,7 +2,7 @@
     "card": [
         {
             "url":"./assets/imgMenu/asian-gfd1623f58_640.jpg",
-            "titolo": "titolo",
+            "titolo": "gamberetti classici",
             "descrizione": "descrizione",
             "prezzo": 4.00,
             "categoria": "urakami"
@@ -10,7 +10,7 @@
         },
         {
             "url":"./assets/imgMenu/sushi-g89dedfee2_640.jpg",
-            "titolo": "titolo",
+            "titolo": "specialità piccante",
             "descrizione": "descrizione",
             "prezzo": 4.00,
             "categoria": "piatto"
@@ -18,7 +18,7 @@
         },
         {
             "url":"./assets/imgMenu/sushi-g893a66fd1_640.jpg",
-            "titolo": "titolo",
+            "titolo": "misto urakami",
             "descrizione": "descrizione",
             "prezzo": 4.00,
             "categoria": "piatto"
@@ -26,7 +26,7 @@
         },
         {
             "url":"./assets/imgMenu/sushi-gc43cd8f45_640.jpg",
-            "titolo": "titolo",
+            "titolo": "urakami speziato",
             "descrizione": "descrizione",
             "prezzo": 4.00,
             "categoria": "piatto"
@@ -34,7 +34,7 @@
         },
         {
             "url":"./assets/imgMenu/sushi-g81777ff8f_640.jpg",
-            "titolo": "titolo",
+            "titolo": "urakami avocado",
             "descrizione": "descrizione",
             "prezzo": 4.00,
             "categoria": "urakami"
@@ -43,7 +43,7 @@
     
         {
             "url":"./assets/imgMenu/sushi-ge6b745279_640.jpg",
-            "titolo": "titolo",
+            "titolo": "urakami tempura",
             "descrizione": "descrizione",
             "prezzo": 4.00,
             "categoria": "urakami"
@@ -51,7 +51,7 @@
         },
         {
             "url":"./assets/imgMenu/sushi-gc6f4b4874_640.jpg",
-            "titolo": "titolo",
+            "titolo": "aragosta cinese",
             "descrizione": "descrizione",
             "prezzo": 4.00,
             "categoria": "piatto"
@@ -59,7 +59,7 @@
         },
         {
             "url":"./assets/imgMenu/sushi-g81a294ac7_640.jpg",
-            "titolo": "titolo",
+            "titolo": "urakami con gamberi",
             "descrizione": "descrizione",
             "prezzo": 4.00,
             "categoria": "urakami"
@@ -67,7 +67,7 @@
         },
         {
             "url":"./assets/imgMenu/sushi-g19540996a_640.jpg",
-            "titolo": "titolo",
+            "titolo": "urakami al manzo",
             "descrizione": "descrizione",
             "prezzo": 4.00,
             "categoria": "urakami"
@@ -75,7 +75,7 @@
         },
         {
             "url":"./assets/imgMenu/sushi-g19540996a_640.jpg",
-            "titolo": "titolo",
+            "titolo": "urakami al manzo",
             "descrizione": "descrizione",
             "prezzo": 4.00,
             "categoria": "urakami"

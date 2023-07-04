@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
       <Routes>
        
-        <Route path='/' element={<Navbar></Navbar>}>
+        <Route path='/' element={<Navbar/>}>
 
 
           <Route index element={

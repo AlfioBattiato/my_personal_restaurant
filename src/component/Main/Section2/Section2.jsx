@@ -11,7 +11,9 @@ function Section2() {
         <section>
 
             <div className="section2">
-            <div className="imgConcept"> </div>
+            <div className="imgConcept"> 
+            {/* <img src="./assets/maki.jpg" alt="" /> */}
+            </div>
 
                 <div className="concept">
                     <h4>Sushi&Sushi :  il nostro concept</h4>
